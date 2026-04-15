@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="true" locked="false" password="" />
+    <object_tracker enabled="false" />
+  </ui_settings>
+  <groups>
+    <group id="GRP_1772115332914" name="Group 2" op="sub" visible="true" />
+    <group id="GRP_1772115805320" name="Group 2" op="sub" visible="true" />
+  </groups>
+  <objects>
+    <object uuid="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" name="Text_226" type="text" gID="" order="0">
+      <color>16711680</color>
+      <pos x="0" y="0.5933030932647236" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="0.6" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"TN 57 W","size":"6","height":"3"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="4e860908-df15-4910-be16-fe875312645d" name="Text_226_Dup_408" type="text" gID="" order="1">
+      <color>16711680</color>
+      <pos x="0" y="-8.121977665346288" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="0.6" />
+      <extrudeFormula amount="=Text_226.Ex" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"5524","size":"6","height":"3"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"font":"=Text_226.Ff","extrude":{"amount":"=Text_226.Ex"},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="1deb2295-6b82-47de-89fe-6046f0d086e0" name="Box_397" type="box" gID="GRP_1772115805320" order="2">
+      <color>16777215</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="-Z" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"44","h":"27","d":"3","cornerRound":"0","cornerRoundMode":"vertical"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"cornerRound":null,"d":null,"h":null,"w":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="d17cd03d-c7d1-4b3f-83af-299f789c00a1" name="Cylinder_453" type="cylinder" gID="GRP_1772115805320" order="3">
+      <color>3718648</color>
+      <pos x="-19.560194712582273" y="10.88599057552747" z="-0.21102591514700997" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":"1","h":"7","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null,"h":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="064bbfc2-5b44-4b68-82fc-2ae0652bc744" name="Link_STL_135" type="stl" gID="GRP_1772115332914" order="4">
+      <color>16711680</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="0.6" />
+      <offset x="0" y="0" z="0" />
+      <params>{}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{},"extrude":{"amount":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+      <stlUrl>https://raw.githubusercontent.com/Muthuraj1550/3d/dd2bdbbe9ccdf5bf6cd054e003292b6b362668ea/frame%20number%20plate%20keychain.stl</stlUrl>
+    </object>
+    <object uuid="80995e52-6b8a-4326-86fd-40ef7652508c" name="Text_661" type="text" gID="GRP_1772115332914" order="5">
+      <color>9133302</color>
+      <pos x="0" y="9.409186897271427" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"My 3D Gifts","size":"4","height":"7"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>yellowtail</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+  </objects>
+  <pinnedGroups>
+    <group id="GRP_1772169376438" name="Name" pins="80995e52-6b8a-4326-86fd-40ef7652508c-size-text,80995e52-6b8a-4326-86fd-40ef7652508c-size-size,80995e52-6b8a-4326-86fd-40ef7652508c-font" />
+    <group id="GRP_1772169422126" name="Base &amp; Name" pins="064bbfc2-5b44-4b68-82fc-2ae0652bc744-extrude-amount,1deb2295-6b82-47de-89fe-6046f0d086e0-extrude-amount" />
+    <group id="GRP_1772169436047" name="Number" pins="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-size-text,f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-size-size,f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-extrude-amount,f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-font,4e860908-df15-4910-be16-fe875312645d-size-text,4e860908-df15-4910-be16-fe875312645d-size-size" />
+    <group id="GRP_1772169493767" name="Hole" pins="d17cd03d-c7d1-4b3f-83af-299f789c00a1-size-r,d17cd03d-c7d1-4b3f-83af-299f789c00a1-translate-x,d17cd03d-c7d1-4b3f-83af-299f789c00a1-translate-y" />
+  </pinnedGroups>
+  <pinned>
+    <pin id="80995e52-6b8a-4326-86fd-40ef7652508c-size-text" objUUID="80995e52-6b8a-4326-86fd-40ef7652508c" type="size" axis="text" label="Name" groupId="GRP_1772169376438" />
+    <pin id="80995e52-6b8a-4326-86fd-40ef7652508c-size-size" objUUID="80995e52-6b8a-4326-86fd-40ef7652508c" type="size" axis="size" label="size" groupId="GRP_1772169376438" />
+    <pin id="80995e52-6b8a-4326-86fd-40ef7652508c-font" objUUID="80995e52-6b8a-4326-86fd-40ef7652508c" type="font" axis="fontKey" label="Name Font" groupId="GRP_1772169376438" />
+    <pin id="064bbfc2-5b44-4b68-82fc-2ae0652bc744-extrude-amount" objUUID="064bbfc2-5b44-4b68-82fc-2ae0652bc744" type="extrude" axis="amount" label="frame Thick" groupId="GRP_1772169422126" />
+    <pin id="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-size-text" objUUID="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" type="size" axis="text" label="1st Number" groupId="GRP_1772169436047" />
+    <pin id="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-size-size" objUUID="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" type="size" axis="size" label="1st number size" groupId="GRP_1772169436047" />
+    <pin id="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-extrude-amount" objUUID="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" type="extrude" axis="amount" label="Number  Thick" groupId="GRP_1772169436047" />
+    <pin id="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5-font" objUUID="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" type="font" axis="fontKey" label="Number Font" groupId="GRP_1772169436047" />
+    <pin id="4e860908-df15-4910-be16-fe875312645d-size-text" objUUID="4e860908-df15-4910-be16-fe875312645d" type="size" axis="text" label="2nd Number" groupId="GRP_1772169436047" />
+    <pin id="4e860908-df15-4910-be16-fe875312645d-size-size" objUUID="4e860908-df15-4910-be16-fe875312645d" type="size" axis="size" label="2nd number size" groupId="GRP_1772169436047" />
+    <pin id="1deb2295-6b82-47de-89fe-6046f0d086e0-extrude-amount" objUUID="1deb2295-6b82-47de-89fe-6046f0d086e0" type="extrude" axis="amount" label="Base thick (defult 3)" groupId="GRP_1772169422126" />
+    <pin id="d17cd03d-c7d1-4b3f-83af-299f789c00a1-size-r" objUUID="d17cd03d-c7d1-4b3f-83af-299f789c00a1" type="size" axis="r" label="Hole Radius (1R=2mm)" groupId="GRP_1772169493767" />
+    <pin id="d17cd03d-c7d1-4b3f-83af-299f789c00a1-translate-x" objUUID="d17cd03d-c7d1-4b3f-83af-299f789c00a1" type="translate" axis="x" label="x" groupId="GRP_1772169493767" />
+    <pin id="d17cd03d-c7d1-4b3f-83af-299f789c00a1-translate-y" objUUID="d17cd03d-c7d1-4b3f-83af-299f789c00a1" type="translate" axis="y" label="y" groupId="GRP_1772169493767" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="f4d894d8-e5a8-4626-a8f5-ce82f0907fe5" name="Text_226" />
+    <displayName uuid="4e860908-df15-4910-be16-fe875312645d" name="Text_226_Dup_408" />
+    <displayName uuid="1deb2295-6b82-47de-89fe-6046f0d086e0" name="Box_397" />
+    <displayName uuid="d17cd03d-c7d1-4b3f-83af-299f789c00a1" name="Cylinder_453" />
+    <displayName uuid="064bbfc2-5b44-4b68-82fc-2ae0652bc744" name="Link_STL_135" />
+    <displayName uuid="80995e52-6b8a-4326-86fd-40ef7652508c" name="Text_661" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
