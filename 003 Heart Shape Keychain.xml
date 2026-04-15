@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="true" locked="false" password="" />
+    <object_tracker enabled="false" />
+  </ui_settings>
+  <groups>
+    <group id="GRP_1772176722785" name="Group 1" op="sub" visible="true" />
+  </groups>
+  <objects>
+    <object uuid="4ab9ae38-7d56-4129-a4a7-77e67766d570" name="Heart_39" type="heart" gID="GRP_1772176722785" order="0">
+      <color>16711680</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="0" y="0" z="3.141592653589793" />
+      <sca x="1" y="1" z="0.33924092695465186" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="-Z" amount="1" />
+      <offset x="0" y="0" z="0" />
+      <params>{"size":"25","thickness":"1"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"thickness":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" name="Text_15" type="text" gID="" order="1">
+      <color>16777215</color>
+      <pos x="0" y="8.366637195247502" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="1" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Muthu","size":"11","height":"2"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>satisfy</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="734c3973-7812-4c19-be94-b305b81343ff" name="Text_15_Dup_193" type="text" gID="" order="2">
+      <color>16777215</color>
+      <pos x="0" y="-7.162130543816099" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="1" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Priya","size":"11","height":"2"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"height":null,"text":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>satisfy</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="f83972b8-cea8-452f-84e6-df18b9509f8b" name="Cylinder_69" type="cylinder" gID="GRP_1772176722785" order="3">
+      <color>3718648</color>
+      <pos x="-14.130275846144105" y="20.03363228205415" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":"1","h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+    <group id="GRP_1772176743632" name="Heart &amp; Hole" pins="4ab9ae38-7d56-4129-a4a7-77e67766d570-extrude-amount,f83972b8-cea8-452f-84e6-df18b9509f8b-size-r,f83972b8-cea8-452f-84e6-df18b9509f8b-translate-x,f83972b8-cea8-452f-84e6-df18b9509f8b-translate-y" />
+    <group id="GRP_1772176824961" name="Top Name" pins="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-text,18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-size,18213bd4-71b6-45d8-b30d-bf0a8e17ae77-font,18213bd4-71b6-45d8-b30d-bf0a8e17ae77-extrude-amount" />
+    <group id="GRP_1772176850017" name="2nd Name" pins="734c3973-7812-4c19-be94-b305b81343ff-size-text,734c3973-7812-4c19-be94-b305b81343ff-extrude-amount,734c3973-7812-4c19-be94-b305b81343ff-font,734c3973-7812-4c19-be94-b305b81343ff-size-size" />
+  </pinnedGroups>
+  <pinned>
+    <pin id="4ab9ae38-7d56-4129-a4a7-77e67766d570-extrude-amount" objUUID="4ab9ae38-7d56-4129-a4a7-77e67766d570" type="extrude" axis="amount" label="Heart Thickness ( defult 2 mm)" groupId="GRP_1772176743632" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-text" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="text" label="text" groupId="GRP_1772176824961" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-size-size" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="size" axis="size" label="1st Name size" groupId="GRP_1772176824961" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-font" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="font" axis="fontKey" label="Font" groupId="GRP_1772176824961" />
+    <pin id="18213bd4-71b6-45d8-b30d-bf0a8e17ae77-extrude-amount" objUUID="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" type="extrude" axis="amount" label="1st Name Thick" groupId="GRP_1772176824961" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-extrude-amount" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="extrude" axis="amount" label="2nd Thick" groupId="GRP_1772176850017" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-text" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="text" label="2nd Name" groupId="GRP_1772176850017" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-size-r" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="size" axis="r" label="Hole Radius" groupId="GRP_1772176743632" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-font" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="font" axis="fontKey" label="2nd Font" groupId="GRP_1772176850017" />
+    <pin id="734c3973-7812-4c19-be94-b305b81343ff-size-size" objUUID="734c3973-7812-4c19-be94-b305b81343ff" type="size" axis="size" label="2nd size" groupId="GRP_1772176850017" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-x" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="x" label="Hole   Position       x" groupId="GRP_1772176743632" />
+    <pin id="f83972b8-cea8-452f-84e6-df18b9509f8b-translate-y" objUUID="f83972b8-cea8-452f-84e6-df18b9509f8b" type="translate" axis="y" label="Hole Position    y" groupId="GRP_1772176743632" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="4ab9ae38-7d56-4129-a4a7-77e67766d570" name="Heart_39" />
+    <displayName uuid="18213bd4-71b6-45d8-b30d-bf0a8e17ae77" name="Text_15" />
+    <displayName uuid="734c3973-7812-4c19-be94-b305b81343ff" name="Text_15_Dup_193" />
+    <displayName uuid="f83972b8-cea8-452f-84e6-df18b9509f8b" name="Cylinder_69" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
