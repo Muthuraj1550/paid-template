@@ -4,9 +4,9 @@
     <left_panel collapsed="false" locked="false" password="" floatMode="true" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
-    <drag_locked value="true" />
+    <drag_locked value="false" />
   </ui_settings>
-  <camera px="7.077721947779899" py="169.0373121489253" pz="24.146486091420517" tx="7.077735787306123" ty="28.5693675397141" tz="24.146346284960323" />
+  <camera px="0.15278055528819684" py="134.2072231515993" pz="-0.3466103254609623" tx="0.15279096319691216" ty="28.569391235158076" tz="-0.3467154658286373" />
   <groups>
     <group id="GRP_1790045037942" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
     <group id="GRP_1790045446735" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
@@ -27,7 +27,7 @@
   </childOrder>
   <objects>
     <object uuid="ce1ec76a-2ba6-4748-b34c-798483055031" name="Text_214" type="text" gID="" order="0">
-      <color>49151</color>
+      <color>16777215</color>
       <pos x="0" y="0" z="0" />
       <rot x="-1.5707963267948966" y="0" z="0" />
       <sca x="1" y="1" z="1" />
@@ -36,7 +36,7 @@
         <step axis="+Z" amount="1" formula="=BORDER.dh" />
       </extrude>
       <offset x="0" y="0" z="0" />
-      <params>{"text":"gpupah","size":30,"height":"3"}</params>
+      <params>{"text":"Kj;J","size":30,"height":3}</params>
       <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"height":null},"font":null,"extrude":{"amount":null,"amount_0":"=BORDER.dh"},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"dim":{"x":null,"y":null,"z":null}}</formulas>
       <visible>true</visible>
       <locked>false</locked>
@@ -116,19 +116,20 @@
   </objects>
   <pinnedGroups>
     <group id="GRP_1790045282119" name="BASE" pins="7208f166-399c-445a-8921-4dc2c493a54a-size-w,7208f166-399c-445a-8921-4dc2c493a54a-size-h,7208f166-399c-445a-8921-4dc2c493a54a-size-d" />
-    <group id="GRP_1790045298463" name="TEXT BORDER" pins="ce1ec76a-2ba6-4748-b34c-798483055031-size-text,ce1ec76a-2ba6-4748-b34c-798483055031-size-size,13d2c600-5f68-4758-bbd2-945d07398895-size-h,13d2c600-5f68-4758-bbd2-945d07398895-size-w" />
+    <group id="GRP_1790045298463" name="TEXT BORDER" pins="ce1ec76a-2ba6-4748-b34c-798483055031-size-text,ce1ec76a-2ba6-4748-b34c-798483055031-size-size,13d2c600-5f68-4758-bbd2-945d07398895-size-h,13d2c600-5f68-4758-bbd2-945d07398895-size-w,linkbtn-1790179530957-601" />
     <group id="GRP_1790045548871" name="hole" pins="2133681f-095f-406f-8102-7ee055f30eec-objectSelect,2133681f-095f-406f-8102-7ee055f30eec-size-r" />
   </pinnedGroups>
   <pinned>
-    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-w" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="w" label="BORDER SIZE" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" />
-    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-h" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="h" label="TEXT HEIGHT" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" />
-    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-size" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="size" label="TEXT size" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" />
-    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-text" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="text" label="NAME" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" />
-    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-w" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="w" label="BASE WIDTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" />
-    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-h" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="h" label="BASE HEIGHT" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" />
-    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-d" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="d" label="BASE DEPTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" />
-    <pin id="2133681f-095f-406f-8102-7ee055f30eec-objectSelect" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="objectSelect" axis="select" label="Select hole" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" />
-    <pin id="2133681f-095f-406f-8102-7ee055f30eec-size-r" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="size" axis="r" label="hole radius" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" />
+    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-w" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="w" label="BORDER SIZE" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-h" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="h" label="TEXT HEIGHT" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-size" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="size" label="TEXT size" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-text" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="text" label="NAME" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-w" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="w" label="BASE WIDTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-h" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="h" label="BASE HEIGHT" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-d" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="d" label="BASE DEPTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="2133681f-095f-406f-8102-7ee055f30eec-objectSelect" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="objectSelect" axis="select" label="Select hole" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" url="" />
+    <pin id="2133681f-095f-406f-8102-7ee055f30eec-size-r" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="size" axis="r" label="hole radius" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" url="" />
+    <pin id="linkbtn-1790179530957-601" objUUID="null" type="linkButton" axis="link" label="Conveter" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="https://tamilfontconverter.com/unicode-to-bamini/" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
