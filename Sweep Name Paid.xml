@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="false" locked="false" password="" floatMode="true" />
+    <left_panel collapsed="false" locked="false" password="" floatMode="false" />
     <object_tracker enabled="false" />
     <transform_space value="local" />
     <drag_locked value="true" />
   </ui_settings>
-  <camera px="-137.4375845212742" py="61.51423005934232" pz="227.2915073345866" tx="0" ty="0" tz="0" />
+  <camera px="-172.84357243922312" py="24.886708648515384" pz="174.88777677867097" tx="-4.828303547591733" ty="17.91017862838776" tz="-7.890874443441533" />
   <groups>
   </groups>
   <topLevelOrder>
@@ -15,8 +15,8 @@
   </topLevelOrder>
   <objects>
     <object uuid="af9ea2b7-d09e-48c6-8cb3-b3c6c5d7aca7" name="Text_415" type="text" gID="" order="0">
-      <color>9133302</color>
-      <pos x="0" y="-0.12328910060421094" z="13.153593534770476" />
+      <color>5499123</color>
+      <pos x="0" y="-0.12328910060421006" z="8.782699540515221" />
       <rot x="-1.5707963267948966" y="0" z="0" />
       <sca x="1" y="1" z="1" />
       <uniformScale>true</uniformScale>
