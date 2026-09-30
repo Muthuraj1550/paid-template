@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="true" locked="false" password="" floatMode="true" />
+    <object_tracker enabled="false" />
+    <transform_space value="local" />
+    <drag_locked value="false" />
+  </ui_settings>
+  <camera px="25.0626112397767" py="129.40562348819768" pz="93.13800698589202" tx="0.15279096319691216" ty="28.569391235158076" tz="-0.3467154658286373" />
+  <groups>
+    <group id="GRP_1790045037942" name="Group 1" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+    <group id="GRP_1790045446735" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
+  </groups>
+  <topLevelOrder>
+    <entry type="layer" uuid="ce1ec76a-2ba6-4748-b34c-798483055031" />
+    <entry type="layer" uuid="13d2c600-5f68-4758-bbd2-945d07398895" />
+    <entry type="group" id="GRP_1790045037942" />
+    <entry type="group" id="GRP_1790045446735" />
+  </topLevelOrder>
+  <childOrder groupId="GRP_1790045037942">
+    <entry type="layer" uuid="364ff373-24c1-4a50-94a2-f04053101e5f" />
+    <entry type="layer" uuid="fee8f354-d919-4be3-bc4b-03103c1d1d3f" />
+  </childOrder>
+  <childOrder groupId="GRP_1790045446735">
+    <entry type="layer" uuid="7208f166-399c-445a-8921-4dc2c493a54a" />
+    <entry type="layer" uuid="2133681f-095f-406f-8102-7ee055f30eec" />
+  </childOrder>
+  <objects>
+    <object uuid="ce1ec76a-2ba6-4748-b34c-798483055031" name="Text_214" type="text" gID="" order="0">
+      <color>16777215</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="-1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="true" multi="true">
+        <step axis="+Z" amount="1" formula="=BORDER.dh" />
+      </extrude>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Kj;J","size":30,"height":3}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"height":null},"font":null,"extrude":{"amount":null,"amount_0":"=BORDER.dh"},"array":{},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>true</visible>
+      <locked>false</locked>
+      <fontKey>custom_mu5kcxun_lebaw</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+    <object uuid="7208f166-399c-445a-8921-4dc2c493a54a" name="Box_887" type="box" gID="GRP_1790045446735" order="1">
+      <color>15680580</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"90","h":"30","d":"3","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"d":null,"h":null,"w":null},"font":null,"extrude":{"amount":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="364ff373-24c1-4a50-94a2-f04053101e5f" name="OUT O" type="box" gID="GRP_1790045037942" order="2">
+      <color>52479</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":92,"h":32,"d":4,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"d":"=Box_887.dd+BORDER.dh","h":"=Box_887.dh+BORDER.dw","w":"=Box_887.dw+BORDER.dw"},"font":null,"extrude":{"amount":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="fee8f354-d919-4be3-bc4b-03103c1d1d3f" name="OUT I" type="box" gID="GRP_1790045037942" order="3">
+      <color>52479</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":90,"h":30,"d":7,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"d":"=Box_887.dd+2*BORDER.dw","h":"=Box_887.dh","w":"=Box_887.dw"},"font":null,"extrude":{"amount":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="13d2c600-5f68-4758-bbd2-945d07398895" name="BORDER" type="box" gID="" order="4">
+      <color>15680580</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"w":"2","h":"1","d":"3","cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"d":null,"h":null,"w":null},"font":null,"extrude":{"amount":null},"array":{},"dim":{"x":null,"y":null,"z":null}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="2133681f-095f-406f-8102-7ee055f30eec" name="Cylinder_790" type="cylinder" gID="GRP_1790045446735" order="5">
+      <color>16347926</color>
+      <pos x="38.62263045700768" y="0" z="-10.791523785338605" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>true</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"r":"2","h":60,"cornerRound":0,"cornerRoundMode":"all"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null},"font":null,"extrude":{"amount":null},"array":{}}</formulas>
+      <visible>false</visible>
+      <locked>false</locked>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+    <group id="GRP_1790045282119" name="BASE" pins="7208f166-399c-445a-8921-4dc2c493a54a-size-w,7208f166-399c-445a-8921-4dc2c493a54a-size-h,7208f166-399c-445a-8921-4dc2c493a54a-size-d" />
+    <group id="GRP_1790045298463" name="TEXT BORDER" pins="ce1ec76a-2ba6-4748-b34c-798483055031-size-text,ce1ec76a-2ba6-4748-b34c-798483055031-size-size,13d2c600-5f68-4758-bbd2-945d07398895-size-h,13d2c600-5f68-4758-bbd2-945d07398895-size-w,linkbtn-1790179530957-601" />
+    <group id="GRP_1790045548871" name="hole" pins="2133681f-095f-406f-8102-7ee055f30eec-objectSelect,2133681f-095f-406f-8102-7ee055f30eec-size-r" />
+  </pinnedGroups>
+  <pinned>
+    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-w" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="w" label="BORDER SIZE" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="13d2c600-5f68-4758-bbd2-945d07398895-size-h" objUUID="13d2c600-5f68-4758-bbd2-945d07398895" type="size" axis="h" label="TEXT HEIGHT" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-size" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="size" label="TEXT size" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="ce1ec76a-2ba6-4748-b34c-798483055031-size-text" objUUID="ce1ec76a-2ba6-4748-b34c-798483055031" type="size" axis="text" label="NAME" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-w" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="w" label="BASE WIDTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-h" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="h" label="BASE HEIGHT" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="7208f166-399c-445a-8921-4dc2c493a54a-size-d" objUUID="7208f166-399c-445a-8921-4dc2c493a54a" type="size" axis="d" label="BASE DEPTH" groupId="GRP_1790045282119" paidOverride="0" paidFontKey="" url="" />
+    <pin id="2133681f-095f-406f-8102-7ee055f30eec-objectSelect" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="objectSelect" axis="select" label="Select hole" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" url="" />
+    <pin id="2133681f-095f-406f-8102-7ee055f30eec-size-r" objUUID="2133681f-095f-406f-8102-7ee055f30eec" type="size" axis="r" label="hole radius" groupId="GRP_1790045548871" paidOverride="0" paidFontKey="" url="" />
+    <pin id="linkbtn-1790179530957-601" objUUID="null" type="linkButton" axis="link" label="Conveter" groupId="GRP_1790045298463" paidOverride="0" paidFontKey="" url="https://tamilfontconverter.com/unicode-to-bamini/" />
+    <pin id="linkbtn-1790742413264-492" objUUID="null" type="linkButton" axis="link" label="Tutorial" groupId="" paidOverride="0" paidFontKey="" url="https://www.youtube.com/shorts/cEllOPa7Zy4" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="ce1ec76a-2ba6-4748-b34c-798483055031" name="Text_214" />
+    <displayName uuid="7208f166-399c-445a-8921-4dc2c493a54a" name="Box_887" />
+    <displayName uuid="364ff373-24c1-4a50-94a2-f04053101e5f" name="OUT O" />
+    <displayName uuid="fee8f354-d919-4be3-bc4b-03103c1d1d3f" name="OUT I" />
+    <displayName uuid="13d2c600-5f68-4758-bbd2-945d07398895" name="BORDER" />
+    <displayName uuid="2133681f-095f-406f-8102-7ee055f30eec" name="Cylinder_790" />
+  </objectDisplayNames>
+  <registeredPlugins>
+    <pluginDef name="Simple Array Preview"><![CDATA[var plugin = {
+  name: "Simple Array Preview",
+  controls: [
+    { key: "count", label: "Count", type: "range", min: 1, max: 10, step: 1, default: 3 },
+    { key: "spacing", label: "Spacing", type: "range", min: 1, max: 50, step: 1, default: 20 }
+  ],
+
+  apply: function (obj, params, THREE) {
+    if (!obj || !obj.geometry) return;
+
+    var count = Math.max(1, Math.round(params.count || 1));
+    var spacing = params.spacing || 20;
+    var baseGeo = obj.geometry;
+
+    // Collect all attribute names and check for index
+    var attrNames = Object.keys(baseGeo.attributes);
+    var isIndexed = baseGeo.index !== null;
+    var baseIndex = isIndexed ? baseGeo.index : null;
+    var vertCount = baseGeo.getAttribute("position").count;
+    var indexCount = isIndexed ? baseIndex.count : 0;
+
+    // Prepare merged attribute arrays
+    var mergedAttrs = {};
+    attrNames.forEach(function (name) {
+      var attr = baseGeo.getAttribute(name);
+      mergedAttrs[name] = {
+        array: new Float32Array(count * attr.count * attr.itemSize),
+        itemSize: attr.itemSize
+      };
+    });
+
+    var mergedIndex = isIndexed ? new Uint32Array(count * indexCount) : null;
+
+    for (var i = 0; i < count; i++) {
+      var offsetX = i * spacing;
+
+      attrNames.forEach(function (name) {
+        var srcAttr = baseGeo.getAttribute(name);
+        var dst = mergedAttrs[name].array;
+        var itemSize = srcAttr.itemSize;
+        var baseOffset = i * srcAttr.count * itemSize;
+
+        for (var v = 0; v < srcAttr.count; v++) {
+          for (var c = 0; c < itemSize; c++) {
+            var val = srcAttr.array[v * itemSize + c];
+            // Only offset the X component of position
+            if (name === "position" && c === 0) val += offsetX;
+            dst[baseOffset + v * itemSize + c] = val;
+          }
+        }
+      });
+
+      // Copy indices with vertex offset
+      if (isIndexed) {
+        var idxOffset = i * indexCount;
+        var vertOffset = i * vertCount;
+        for (var j = 0; j < indexCount; j++) {
+          mergedIndex[idxOffset + j] = baseIndex.array[j] + vertOffset;
+        }
+      }
+    }
+
+    // Build merged geometry
+    var merged = new THREE.BufferGeometry();
+    attrNames.forEach(function (name) {
+      merged.setAttribute(name, new THREE.Float32BufferAttribute(
+        mergedAttrs[name].array, mergedAttrs[name].itemSize
+      ));
+    });
+    if (mergedIndex) {
+      merged.setIndex(new THREE.BufferAttribute(mergedIndex, 1));
+    }
+
+    obj.geometry.dispose();
+    obj.geometry = merged;
+
+    if (typeof window !== "undefined" && window.updateLivePreview) {
+      window.updateLivePreview();
+    }
+  },
+
+  reset: function (obj, THREE) {}
+};
+
+return plugin;
+]]></pluginDef>
+  </registeredPlugins>
+</project>
