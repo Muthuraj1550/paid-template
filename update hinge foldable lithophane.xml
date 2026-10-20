@@ -6,7 +6,7 @@
     <transform_space value="local" />
     <drag_locked value="false" />
   </ui_settings>
-  <camera px="174.03362159641458" py="166.78067248737625" pz="1.3379771510973923" tx="-1.8923522272480582" ty="-6.891525945303292" tz="0.22242201462551903" />
+  <camera px="183.29288337660734" py="175.92131451014887" pz="1.3966905793327542" tx="-1.8923522272480582" ty="-6.891525945303292" tz="0.22242201462551903" />
   <groups>
     <group id="GRP_1791607821725" name="letter frame" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
     <group id="GRP_1791610700462" name="Group 2" op="sub" visible="true" collapsed="false" parentGroupID="" boolOp="default" />
@@ -425,6 +425,7 @@
     <pin id="9c4dafe1-3393-40c4-9d16-fd938923343d-objectSelect" objUUID="9c4dafe1-3393-40c4-9d16-fd938923343d" type="objectSelect" axis="select" label="select Text" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="9c4dafe1-3393-40c4-9d16-fd938923343d" />
     <pin id="9c4dafe1-3393-40c4-9d16-fd938923343d-size-text" objUUID="9c4dafe1-3393-40c4-9d16-fd938923343d" type="size" axis="text" label="text" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
     <pin id="9c4dafe1-3393-40c4-9d16-fd938923343d-rotate-x" objUUID="9c4dafe1-3393-40c4-9d16-fd938923343d" type="rotate" axis="x" label="TEXT INSIDE OUTSIDE" groupId="" paidOverride="0" paidFontKey="" url="" objUUIDs="" />
+    <pin id="linkbtn-1792463650584-463" objUUID="null" type="linkButton" axis="link" label="Full Tutorial" groupId="" paidOverride="0" paidFontKey="" url="https://youtu.be/sTx5s0syEOc" objUUIDs="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
